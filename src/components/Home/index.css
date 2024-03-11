@@ -1,0 +1,36 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-con {
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .inner-con {
+    width: 300px;
+  }
+}
+
+.btn {
+  height: 35px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 0px;
+  border-radius: 10px;
+}
